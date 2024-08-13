@@ -147,10 +147,10 @@ var sliderSwiper = new Swiper('.slider-active', {
 var sliderSwiper = new Swiper('.slider-active-two', {
     spaceBetween: 0,
     effect: "fade",
-    loop: true,
-    autoplay: {
-        delay: 6000,
-    },
+    // loop: true,
+    // autoplay: {
+    //     delay: 6000,
+    // },
     // Navigation arrows
     navigation: {
         nextEl: ".slider-button-next",
@@ -452,7 +452,39 @@ var Careerswiper = new Swiper(".Careerswiper__active", {
         prevEl: ".testimonial-button-prev",
     },
 });
+// -----------------------------------------------------
+var swiperThumbs = new Swiper(".swiper-thumbs", {
+    slidesPerView: 4,
+    spaceBetween: 0,
+    arrows:true,
+    autoplay: true,
+    loop: true,
+    breakpoints: {
+     1920: {
+       slidesPerView: 4
+     },
+     992: {
+       slidesPerView: 3
+     },
+     480: {
+       slidesPerView: 2
+     }
+   }
+});
 
+var swiperMain = new Swiper(".swiper-main", {
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  thumbs: {
+    swiper: swiperThumbs
+  }
+});
+$('.Industries_section .swiper-thumbs .swiper-slide').hover(function() {
+  $( this ).trigger( "click" );
+}); 
 /*=============================================
 	=        Team Social Active 	       =
 =============================================*/

@@ -43,13 +43,16 @@
 /*============================================
 /*  01. Theme Default CSS
 ==============================================*/
-@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@300;400;500;600;700;800;900&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@300;400;500;600;700;800;900&display=swap");*/
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');*/
+@import url('https://fonts.cdnfonts.com/css/arial:wght@400;500;700&display=swap');
 :root {
-  --tg-body-font-family: 'Saira Semi Condensed', sans-serif;
-  --tg-heading-font-family: 'Saira Semi Condensed', sans-serif;
+  /*--tg-body-font-family: 'Saira Semi Condensed', sans-serif;
+  --tg-heading-font-family: 'Saira Semi Condensed', sans-serif;*/
   /*--tg-body-font-family: 'Roboto', sans-serif;
   --tg-heading-font-family: 'Roboto', sans-serif;*/
+  --tg-body-font-family: 'Roboto', sans-serif;
+  --tg-heading-font-family: 'Roboto', sans-serif;
   --tg-icon-font-family: "Font Awesome 5 Free";
   --tg-body-font-size: 16px;
   --tg-body-line-height: 1.62;
@@ -2091,6 +2094,11 @@ textarea {
     display: block;
   }
 }
+/*.tg-header__area{
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+}*/
 .tg-header__area.sticky-menu {
   padding: 0 0;
 }
@@ -2322,7 +2330,8 @@ textarea {
   text-transform: uppercase;
   color: var(--tg-heading-color);
   font-family: var(--tg-heading-font-family);
-  padding: 42px 24px;
+/*  padding: 42px 24px;*/
+padding: 35px 24px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -2841,14 +2850,16 @@ textarea {
 .slider__bg-two {
   background-size: cover;
   background-position: center;
-  min-height: 900px;
+/*  min-height: 900px;*/
+  min-height: 650px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  padding: 120px 0;
+/*  padding: 120px 0;*/
+  padding: 50px 0;
   position: relative;
   z-index: 1;
 }
@@ -3010,7 +3021,7 @@ textarea {
   border-color: var(--tg-theme-primary);
 }
 .slider__content-two {
-  margin-left: 80px;
+  margin-left: 0px;
 }
 @media (max-width: 1199.98px) {
   .slider__content-two {
@@ -3039,11 +3050,16 @@ textarea {
   }
 }
 .slider__content-two .title {
-  margin-bottom: 70px;
+  margin-bottom: 0px;
   color: var(--tg-color-white-default);
-  text-transform: uppercase;
-  font-size: 90px;
+  text-transform: capitalize;
+  font-size: 45px;
   line-height: 1.1;
+}
+.slider__content-two .subtitle{
+  color: var(--tg-color-white-default);
+  font-size: 22px;
+  margin-top: 25px;
 }
 @media (max-width: 1500px) {
   .slider__content-two .title {
@@ -3190,7 +3206,7 @@ textarea {
   justify-content: center;
   border: none;
   color: var(--tg-color-white-default);
-  background: var(--tg-theme-secondary);
+  background: #686868;
   padding: 0;
 }
 @media (max-width: 991.98px) {
