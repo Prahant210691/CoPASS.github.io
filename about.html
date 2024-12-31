@@ -26,6 +26,89 @@
     <link rel="stylesheet" href="assets/css/tg-cursor.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- <link rel="stylesheet" href="assets/css/My_style.css"> -->
+    <link rel="stylesheet" href="assets/css/My_style.css">
+    <link rel="stylesheet" href="assets/css/timeline.css" />
+
+    <style type="text/css">
+        .experience__box {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: #f1f1f1;
+            border: 1px solid #f1f1f1;
+            border-radius: 15px;
+            z-index: 1;
+        }
+    </style>
+    <!-- <style type="text/css">
+        .card.myCard{
+          vertical-align:top;
+          width:280px;
+          height:450px;
+          position:relative;
+          margin:30px;
+          box-shadow: 20px 20px 50px rgba(0,0,0,0.8);
+          border-radius:25px;
+          background-color:rgba(255,255,255, 0.1);
+          overflow:hidden;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          backdrop-filter:blur(5px);
+          text-align:center;
+        }
+        .card.myCard .content{
+          padding:20px;
+          transition:0.8s all ease;
+          color:#ccc;
+          transform:translateY(200px);
+          opacity:0;
+        }
+        .card.myCard:hover .content{
+          transform:translateY(0px);
+          opacity:1;
+        }
+        .card.myCard img{
+          position:absolute;
+          filter: invert(82%) sepia(60%) saturate(2929%) hue-rotate(353deg) brightness(105%) contrast(103%);
+          width:140px;
+          top:50px;
+          opacity:0.2;
+          z-index:-1;
+        }
+        h1{
+          color:#fff;
+          text-align:center;
+          z-index:9;
+          position:relative;
+          margin-bottom:-20px;
+          padding-bottom:0;
+          padding-top:20px;
+          font-weight:400;
+        }
+        .card.myCard .content h2{
+          color:#fff;
+          font-weight:400;
+        }
+        .card.myCard .content a{
+          display:inline-block;
+          margin-top:20px;
+          text-decoration:none;
+          padding:8px 30px 11px;
+          border:2px solid #fff;
+          text-transform:uppercase;
+          color:#fff;
+          border-radius:50px;
+          box-shadow: 0px 5px 50px rgba(0,0,0,0.8);
+          transition:0.8s all ease;
+        }
+        .card.myCard .content a:hover{
+          background: #9C27B0;
+        }
+
+    </style> -->
+
 </head>
 
 <body>
@@ -48,7 +131,7 @@
 
     <!-- header-area -->
     <header>
-        <div class="tg-header__top">
+        <!-- <div class="tg-header__top">
             <div class="container custom-container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -66,11 +149,6 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-4">
-                        <div class="tg-header__top-delivery">
-                            <p>Express delivery and free returns within 24 hours</p>
-                        </div>
-                    </div> -->
                     <div class="col-lg-6">
                         <div class="tg-header__top-social">
                             <ul class="list-wrap">
@@ -83,7 +161,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="header-fixed-height"></div>
         <div id="sticky-header" class="tg-header__area">
             <div class="container custom-container">
@@ -91,26 +169,29 @@
                     <div class="col-12">
                         <div class="tgmenu__wrap">
                             <nav class="tgmenu__nav">
-                                <div class="offCanvas-toggle">
+                                <!-- <div class="offCanvas-toggle">
                                     <a href="javascript:void(0)" class="menu-tigger">
                                         <img src="assets/img/icons/bar_icon.svg" alt="" class="injectable">
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="logo">
                                     <a href="index.html"><img src="assets/img/Copass_logo.png" alt="Logo"></a>
                                 </div>
                                 <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                     <ul class="navigation">
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
                                         <li class="active menu-item-has-children"><a href="#">Company</a>
                                             <ul class="sub-menu">
                                                 <li class="active"><a href="about.html">About Us</a></li>
                                                 <li><a href="Leadership.html">Leadership</a></li>
-                                                <li><a href="Goals.html">Our Goals</a></li>
+                                                <!-- <li><a href="Goals.html">Our Goals</a></li> -->
                                                 <li><a href="Partners.html">Partners</a></li>
                                                 <li><a href="clients.html">Clients</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="#">Services</a>
+                                        <!-- <li class="menu-item-has-children"><a href="#">Services</a>
                                             <ul class="sub-menu">
                                                 <li><a href="CoreBankingSolutions.html">Core Banking Solutions</a></li>
                                                 <li><a href="CreditBureauSolution.html">Credit Bureau Solution</a></li>
@@ -118,11 +199,22 @@
                                                 <li><a href="WorkflowManagement.html">Workflow Management</a></li>
                                                 <li><a href="MobileBanking.html">Mobile Banking</a></li>
                                             </ul>
+                                        </li> -->
+                                        <li class="menu-item-has-children"><a href="#">Products</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="Stream_LOS.html">Stream LOS</a></li>
+                                                <li><a href="Cops.html">COPS</a></li>
+                                                <li><a href="EzyB.html">EzyB</a></li>
+                                                <li><a href="AppCo.html">AppCo</a></li>
+                                                <li><a href="BanqOn.html">BanqOn</a></li>
+                                                <li><a href="ReCoup.html">ReCoup</a></li>
+                                                <li><a href="CoBIS.html">CoBIZ</a></li>
+                                            </ul>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <a href="Blogs.html">Blogs</a>
-                                        </li>
-                                        <li>
+                                        </li>-->
+                                         <li>
                                             <a href="Careers.html">Careers</a>
                                         </li>
                                         <li>
@@ -130,9 +222,12 @@
                                         </li>
                                         <li class="menu-item-has-children"><a href="#">Login</a>
                                             <ul class="sub-menu">
-                                                <li><a href="https://ecloud.copass.in/Home.aspx"><img src="assets/img/ezyb.png" height="45"></a></li>
-                                                <li><a href="https://ecloud.copass.in/civslogin.aspx"><img src="assets/img/cobis.png" height="45"></a></li>
-                                                <li><a href="http://stream.copass.in/WF_LIVE/auth" target="_blank"><img src="assets/img/stream.png" height="45"></a></li>
+                                                <li><a href="https://ecloud.copass.in"><img src="assets/img/ezyb.png" height="40" alt="EzyB"></a></li>
+                                                <li><a href="https://ecloud.copass.in/CIVSLogin.aspx"><img src="assets/img/cobis.png" height="40" alt="Cobiz"></a></li>
+                                                <li><a href="https://demo-los.copass.in" target="_blank"><img src="assets/img/stream.png" height="40" alt="Stream"></a></li>
+
+                                                <li><a href="https://recoup.copass.in" target="_blank"><img src="assets/img/Recoup_logo.png" height="40" alt="Recoup"></a></li>
+                                                <li><a href="https://demo-copsprodui.copass.in" target="_blank"><img src="assets/img/Cops_logo.png" height="40" alt="Cops"></a></li>
                                             </ul>
                                         </li>
                                        
@@ -156,9 +251,9 @@
                                 </div>
                                 <div class="tgmenu__action">
                                     <ul class="list-wrap">
-                                        <li class="header-search">
+                                        <!-- <li class="header-search">
                                             <a href="javascript:void(0)" class="search-open-btn"><i class="renova-search"></i></a>
-                                        </li>
+                                        </li> -->
                                         <!-- <li class="header-cart">
                                             <a href="shop.html" class="cart-count">
                                                 <i class="renova-cart"></i>
@@ -166,7 +261,7 @@
                                             </a>
                                         </li> -->
                                         <li class="header-btn">
-                                            <a href="javascript:void(0)" class="btn border-btn demo-trigger">Demo</a>
+                                            <a href="javascript:void(0)" class="btn border-btn demo-trigger demo_btn">Demo</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -338,36 +433,82 @@
     <main class="main-area fix">
 
         <!-- breadcrumb-area -->
-        <div class="breadcrumb__area breadcrumb__bg" data-background="assets/img/aboutUs_img.jpg">
+        <div class="breadcrumb__area breadcrumb__bg" data-background="assets/img/aboutUs_bg.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="breadcrumb__content">
-                            <h2 class="title">About Us</h2>
-                            <nav class="breadcrumb">
-                                <span property="itemListElement" typeof="ListItem">
-                                    <a href="index.html">Home</a>
-                                </span>
-                                <span class="breadcrumb-separator">/</span>
-                                <span property="itemListElement" typeof="ListItem">About Us</span>
-                            </nav>
+                            <h2 class="title">About</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <!-- breadcrumb-area-end -->
+
+        <!-- <section class="WhatMakesUsDifferent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="about-title">What Makes Us Different From The Rest ?</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="about_box">
+                            Deep focus <br>on innovation
+                            <img src="https://thinkpalm.com/wp-content/uploads/2020/04/ico_innovation.png">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="about_box">
+                            Optimized project <br>management methodologies
+                            <img src="https://thinkpalm.com/wp-content/uploads/2020/04/ico_managment.png">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="about_box">Extensive expertise <br>in product development
+                            <img src="https://thinkpalm.com/wp-content/uploads/2020/04/ico_product.png">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="about_box">
+                            Highly qualified <br>team of domain experts
+                            <img src="https://thinkpalm.com/wp-content/uploads/2020/04/ico_domain.png">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="about_box">
+                            Unparalleled customer <br>centric approach
+                            <img src="https://thinkpalm.com/wp-content/uploads/2020/04/ico_customer.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
 
        <!-- about-area -->
        <section class="about__area-two section-py-120">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
+                <div class="row  justify-content-center">
+                    <!-- align-items-center -->
                     <div class="col-lg-6 col-md-10">
                         <div class="about__img-wrap-two">
-                            <img src="assets/img/company_1.jpg" alt="img" class="wow img-custom-anim-right animated" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                            <img src="assets/img/company_3.jpg" alt="img" class="wow img-custom-anim-left animated" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                            <img src="assets/img/company_4.jpg" alt="img" class="wow img-custom-anim-top animated" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <img src="assets/img/aboutUs_img1.png" alt="img" class="wow img-custom-anim-right animated aboutUs_img1" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                            <!-- <img src="assets/img/Copass_logo.png" alt="img" class="wow img-custom-anim-left animated" data-wow-duration="1.5s" data-wow-delay="0.4s"> -->
+                            <img src="assets/img/aboutUs_img2.png" alt="img" class="wow img-custom-anim-top animated" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                            <!-- <div class="logo_animation">
+                                <canvas id="scene"></canvas>
+                            </div> -->
+
+                            <div class="experience__box wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                                <h3 class="title">25+</h3>
+                                <span>Years <br> Experience</span>
+                            </div>
+
                         </div>
+
+
                     </div>
                     <div class="col-lg-6">
                         <div class="about__content-two">
@@ -375,10 +516,9 @@
                                 <span class="sub-title">We are CoPASS!</span>
                                 <h2 class="title">We Are Industry Expert</h2>
                             </div>
-                            <p>CoPASS Technology & Services Private Limited is Information Technology company providing service since 20+ years & is incorporated under the Companies Act, 1956 as private limited.</p>
-                            <p>We are Headquartered in Mumbai, with local support Executives at 14 prominent locations across India.</p>
-                            <p>We are a team of 60 young, enthusiastic, talented and motivated Programmers, Business Development Specialists and Customer Care Professionals.</p>
-                            <div class="experience__wrap">
+                            <p>The desire of Founder Director Anil Jadhav to stay ahead of the latest trends led to the founding of CoPASS Technologies. Launched in 1996 as a software solution company aimed at creating customized solutions for cooperative credit societies, it has continuously evolved to keep pace with the dynamic changes in the Finance sector.</p>
+                            <p>CoPASS now specializes in AI-powered digital solutions for Financial Institutions.  Our expertise in  development, customization, design and innovation enables us to provide comprehensive, user-friendly digital solutions that streamline end to end operations. By leveraging cutting-edge technology and optimizing processes, we ensure that our clients can operate more profitably and efficiently.</p>
+                            <!-- <div class="experience__wrap">
                                 <div class="experience__box">
                                     <h3 class="title">25+</h3>
                                     <span>Years <br> Experience</span>
@@ -391,7 +531,7 @@
                                         <li><img src="assets/img/always_connected.svg"><div>Always Connected</div></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- <div class="about__content-bottom">
                                 <div class="about__customer-box">
                                     <h4 class="title">7.2M+ User</h4>
@@ -410,6 +550,8 @@
             </div>
        </section>
        <!-- about-area-end -->
+
+       
 
        <!-- about-area -->
        <!-- <section class="about__area-three section-py-120">
@@ -456,7 +598,361 @@
        </section> -->
        <!-- about-area-end -->
 
-       <section class="We_delivered section-py-120">
+
+       <!-- <section class="Industries_main_div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="mb-60">
+                            <h2 class="title">Custom Development Services and Solutions for Various Industries</h2>
+                            <p class="subtitle">As a Custom software development company, we offer a wide range of software development services to fulfill your specific business needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="Custom_Development_div">
+                            <div class="technology_tabs">
+                                <ul class="nav nav-tabs nav-pills" id="myTab2" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="Services" data-bs-toggle="tab" data-bs-target="#Services-pane" type="button" role="tab" aria-controls="Services-pane" aria-selected="true"><img src="assets/img/serviceicon.svg" />Services</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="Industries" data-bs-toggle="tab" data-bs-target="#Industries-pane" type="button" role="tab" aria-controls="Industries-pane" aria-selected="false"><img src="assets/img/industriesicon.svg" />Industries</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="Solutions" data-bs-toggle="tab" data-bs-target="#Solutions-pane" type="button" role="tab" aria-controls="Solutions-pane" aria-selected="false"><img src="assets/img/solutionicon.svg" />Solutions</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent2">
+                                    <div class="tab-pane fade show active" id="Services-pane" role="tabpanel" aria-labelledby="Services" tabindex="0">
+                                        <div class="row">
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/mobiledevelop.svg" />
+                                                        <h5 class="card-title">Mobile App Development</h5>
+                                                    </div>
+                                                    <p class="card-text">Ailoitte offers custom mobile app development to boost sales and improve customer loyalty with high-performance apps.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/iosdevelop.svg" />
+                                                        <h5 class="card-title">iOS Development</h5>
+                                                    </div>
+                                                    <p class="card-text">Empowering visionary entrepreneurs and enterprises to build scalable iOS apps with a range of advanced features.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/androiddevelop.svg" />
+                                                        <h5 class="card-title">Android Development</h5>
+                                                    </div>
+                                                    <p class="card-text">Attract more customers on Android devices with our full mobile app development, integration, and support services.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/flutterdevelop.svg" />
+                                                        <h5 class="card-title">Flutter Development</h5>
+                                                    </div>
+                                                    <p class="card-text">Leverage a powerful, flexible framework that surpasses traditional app development limits with a single codebase.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/webappdevelop.svg" />
+                                                        <h5 class="card-title">Web App Development</h5>
+                                                    </div>
+                                                    <p class="card-text">Need a website, a stronger digital presence or a custom web app? Our web development services have you covered.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/reactnativedevelop.svg" />
+                                                        <h5 class="card-title">React Native Development</h5>
+                                                    </div>
+                                                    <p class="card-text">Deliver native-like experiences in half the time with our React Native App Development Services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="Industries-pane" role="tabpanel" aria-labelledby="Industries" tabindex="0">
+                                        <div class="row">
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/healthcareicon.svg" />
+                                                        <h5 class="card-title">Healthcare</h5>
+                                                    </div>
+                                                    <p class="card-text">Transforming healthcare with customized software solutions that drive better patient outcomes and make a real impact.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/fintechicon.svg" />
+                                                        <h5 class="card-title">Fintech</h5>
+                                                    </div>
+                                                    <p class="card-text">From smooth transactions to advanced features, make your app stand out with our fintech development services.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/bankingicon.svg" />
+                                                        <h5 class="card-title">Banking</h5>
+                                                    </div>
+                                                    <p class="card-text">Bridge the gap between efficiency and innovation with the leading banking software development company.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/realestateicon.svg" />
+                                                        <h5 class="card-title">Real Estate</h5>
+                                                    </div>
+                                                    <p class="card-text">Create custom real estate apps, streamlining business processes and property transactions with full industry compliance.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/ecommerceicon.svg" />
+                                                        <h5 class="card-title">Retail &amp; Ecommerce</h5>
+                                                    </div>
+                                                    <p class="card-text">Our expert developers create advanced features for eCommerce &amp; retail businesses, enhancing customer experiences and driving superior engagement.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/nftmarketplaceicon.svg" />
+                                                        <h5 class="card-title">NFT Marketplace</h5>
+                                                    </div>
+                                                    <p class="card-text">Ailoitte offers the best-in-market NFT marketplace development services to create your profitable and advanced NFT platform.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="Solutions-pane" role="tabpanel" aria-labelledby="Solutions" tabindex="0">
+                                        <div class="row">
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/customisableicon.svg" />
+                                                        <h5 class="card-title">Customizable App</h5>
+                                                    </div>
+                                                    <p class="card-text">Our software saves 90% on project time and costs - customize and launch quickly, with everything else done for you.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/ondemandicon1.svg" />
+                                                        <h5 class="card-title">On Demand Development</h5>
+                                                    </div>
+                                                    <p class="card-text">As a top on-demand app developer, we create custom solutions that improve user experience and service efficiency.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/saasdevelopmenticon.svg" />
+                                                        <h5 class="card-title">SaaS Development</h5>
+                                                    </div>
+                                                    <p class="card-text">Whether building a custom SaaS product or enhancing an existing platform, our team delivers top-level SaaS app development.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/startupdevelopicon.svg" />
+                                                        <h5 class="card-title">Startup Development</h5>
+                                                    </div>
+                                                    <p class="card-text">Turning ideas into impactful digital products that enhance experiences and drive meaningful change.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/enterprisedevelopicon.svg" />
+                                                        <h5 class="card-title">Enterprise Development</h5>
+                                                    </div>
+                                                    <p class="card-text">We create scalable enterprise software that evolves with your business, from new solutions to modernizing existing systems.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                                                <div class="card service-card">
+                                                    <div class="card-headers">
+                                                        <img src="https://www.ailoitte.com/wp-content/themes/ailoittee/assests/images/crmdevelopicon.svg" />
+                                                        <h5 class="card-title">CRM Development</h5>
+                                                    </div>
+                                                    <p class="card-text">Maintain and improve customer relationships with Ailoitte's custom CRM development services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="grid_div">
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/healthcare1.png" alt="industries_img" />
+                                <p>Healthcare</p>
+                            </div>
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/Proptech1.png"/>
+                                <p>Real Estate</p>
+                            </div>
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/Marketing_and_Advertising1.png"/>
+                                <p>Marketing and Advertising</p>
+                            </div>
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/Retail1.png"/>
+                                <p>Retail and eCommerce</p>
+                            </div>
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/Finance_and_Banking1.png"/>
+                                <p>Finance and Banking</p>
+                            </div>
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/Education_and_Learning1.png"/>
+                                <p>Education and E-Learning</p>
+                            </div>
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/Travel_Hospitality1.png"/>
+                                <p>Travel and Hospitality</p>
+                            </div>
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/Technology1.png"/>
+                                <p>Technology</p>
+                            </div>
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/Transport1.png"/>
+                                <p>Logistics and Transportation</p>
+                            </div>
+                            <div class="content_div">
+                                <img src="assets/img/Industies_we_serve/Manufacturing1.png"/>
+                                <p>Manufacturing</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section class="Technologies_we_use">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="mb-60">
+                            <h2 class="title">Technologies We Use for Software & App Development</h2>
+                            <p class="subtitle">We've mastered every technology combination, so you can focus on what matters</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="technology_tabs">
+                            <ul class="nav nav-tabs nav-pills" id="myTab2" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="Mobile" data-bs-toggle="tab" data-bs-target="#Mobile-pane" type="button" role="tab" aria-controls="Mobile-pane" aria-selected="true"><img src="assets/img/mobile_icon.svg" />Mobile</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="Frontend" data-bs-toggle="tab" data-bs-target="#Frontend-pane" type="button" role="tab" aria-controls="Frontend-pane" aria-selected="false"><img src="assets/img/webfrontendlogo.svg" />Web Frontend</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="Backend" data-bs-toggle="tab" data-bs-target="#Backend-pane" type="button" role="tab" aria-controls="Backend-pane" aria-selected="false"><img src="assets/img/backendlogo.svg" />Backend</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent2">
+                                <div class="tab-pane fade show active" id="Mobile-pane" role="tabpanel" aria-labelledby="Mobile" tabindex="0">
+                                    <ul class="listing-icons">
+                                        <li>
+                                            <a href="/services/iphone-application-development/">
+                                                <img src="assets/img/Technology_imgs/iosicon.png" />
+                                            </a>
+                                        </li>
+                                        <li><img src="assets/img/Technology_imgs/swifticon.png" /></li>
+                                        <li>
+                                            <a href="/services/flutter-application-development/">
+                                                <img src="assets/img/Technology_imgs/fluttericon.png" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/services/react-native-application-development/">
+                                                <img src="assets/img/Technology_imgs/reactnativeicon.png" />
+                                            </a>
+                                        </li>
+                                        <li><img src="assets/img/Technology_imgs/kotlinicon.png" /></li>
+                                        <li>
+                                            <a href="/services/android-application-development/">
+                                                <img src="assets/img/Technology_imgs/androidicon.png" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="Frontend-pane" role="tabpanel" aria-labelledby="Frontend" tabindex="0">
+                                    <ul class="listing-icons">
+                                        <li><img src="assets/img/Technology_imgs/javascripticon.png" /></li>
+                                        <li><img src="assets/img/Technology_imgs/nextjsicon.png" /></li>
+                                        <li><img src="assets/img/Technology_imgs/reactjsicon.png" /></li>
+                                        <li><img src="assets/img/Technology_imgs/angularicon.png" /></li>
+                                        <li><img src="assets/img/Technology_imgs/vuejsicon.png" /></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="Backend-pane" role="tabpanel" aria-labelledby="Backend" tabindex="0">
+                                    <ul class="listing-icons">
+                                        <li><img src="assets/img/Technology_imgs/pythonicon.png" /></li>
+                                        <li><img src="assets/img/Technology_imgs/golangicon.png" /></li>
+                                        <li><img src="assets/img/Technology_imgs/djangoicon.png" /></li>
+                                        <li><img src="assets/img/Technology_imgs/rubyonrailsicon.png" /></li>
+                                        <li>
+                                            <a href="/hire-developer/hire-java-developers/">
+                                                <img src="assets/img/Technology_imgs/javaicon.png" />
+                                            </a>
+                                        </li>
+                                        <li><img src="assets/img/Technology_imgs/nodejsicon.png" /></li>
+                                        <li><img src="assets/img/Technology_imgs/postgresqlicon.png" /></li>
+                                        <li><img  src="assets/img/Technology_imgs/mongodbicon.png" /></li>
+                                        <li>
+                                            <a href="/hire-developer/hire-dot-net-developers/">
+                                                <img src="assets/img/Technology_imgs/dotneticon.png" />
+                                            </a>
+                                        </li>
+                                        <li><img src="assets/img/Technology_imgs/phpicon.png" /></li>
+                                        <li><img src="assets/img/Technology_imgs/mysqlicon.png" /></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+       <!-- <section class="We_delivered section-py-120">
           <div class="container">
             <div class="row">
               <div class="col-md-12 text-center">
@@ -465,7 +961,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-3 text-center">
+              <div class="col-md-3 col-sm-6 text-center">
                 <div>
                   <img width="80" height="80" src="assets/img/icon1.png" alt="CUSTOMERS GLOBALLY">
                   <div class="counter_number">
@@ -477,7 +973,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 text-center">
+              <div class="col-md-3 col-sm-6 text-center">
                 <div>
                   <img width="80" height="80" src="assets/img/icon2.png" alt="SUCCESSFUL PROJECT DEPLOYMENTS">
                   <div class="counter_number">
@@ -489,7 +985,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 text-center">
+              <div class="col-md-3 col-sm-6 text-center">
                 <div>
                   <img width="80" height="80" src="assets/img/icon3.png" alt="EMPLOYEES WITH WIDER EXPERIENCE">
                   <div class="counter_number">
@@ -501,7 +997,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 text-center">
+              <div class="col-md-3 col-sm-6 text-center">
                 <div>
                   <img width="80" height="80" src="assets/img/icon4.png" alt="GLOBAL PRESENCE">
                   <div class="counter_number">
@@ -515,21 +1011,77 @@
               </div>
             </div>
           </div>
+        </section> -->
+
+        <section class="work_environment_section">
+           <!-- <img loading="lazy" src="https://cdn.shriramgi.com/webassets/assets/images_optimized/home/home_1.webp" alt="About us background image" width="1920" height="640"> -->
+            <!-- <img loading="lazy" src="assets/img/CoreBankingServices_bg3.jpg" alt="About us background image" width="1920" height="640"> -->
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                      <h2 class="section-heading">Healthy work environment</h2>
+                      <p>The following values are at the core of our employee policy, which we uphold and constantly improve.</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                   <div class="col-md-12">
+                       <div class="work_env_grid">
+                           <div class="work_env_content">
+                                <div class="content">
+                                    <img src="assets/img/WorkLife_balance.svg" />
+                                    <h6>Work-life balance</h6>
+                                </div>
+                           </div>
+                           <div class="work_env_content">
+                                <div class="content">
+                                    <img src="assets/img/Intercultural_cooperation.svg" />
+                                    <h6>Intercultural cooperation</h6>
+                                </div>
+                           </div>
+                           <div class="work_env_content">
+                                <div class="content">
+                                    <img src="assets/img/Work_flexibility.svg" />
+                                    <h6>Work flexibility</h6>
+                                </div>
+                           </div>
+                           <div class="work_env_content">
+                                <div class="content">
+                                    <img src="assets/img/Time_for_family.svg" />
+                                    <h6>Time for the family</h6>
+                                </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+           
+
         </section>
+
 
         <section class="our-mission-vision ">
             <div class="container">
-                <div class="row ">
-                    <div class="col-lg-6 col-12 vision-col">
-                        <div class="mission-vision-box">
-                            <h2 class="section-heading line-bottom">Vision</h2>
-                            <p>To strengthen co-operative sector by providing core banking facility, cloud base solutions &amp; easy to use latest technology for simplifying day to day business operations at a very affordable price.</p>
+                <div class="moto_div">
+                    <div class="row ">
+                        <div class="col-lg-4 col-12 vision-col">
+                            <div class="mission-vision-box">
+                                <h2 class="section-heading line-bottom">Vision</h2>
+                                <p>CoPASS Technologies aims to be a leading Fintech company providing  cutting-edge  solutions  in core banking  by harnessing the latest technology to create user friendly solutions that streamline operations, enhance productivity and foster financial inclusion that empowers financial institutions to operate with unparalleled efficiency and cost-effectiveness.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-12 mission-col">
-                        <div class="mission-vision-box text-white">
-                            <h2 class="section-heading text-white line-bottom line-bottom-white">Mission</h2>
-                            <p>To provide our clients with cost effective access to the best technology &amp; processes. To promote the company with expert professionals having strong footing in software development, co-operative &amp; banking sector.</p>
+                        <div class="col-lg-4 col-12 vision-col">
+                            <div class="mission-vision-box text-white">
+                                <h2 class="section-heading text-white line-bottom line-bottom-white">Mission</h2>
+                                <p>At CoPASS Technologies, our mission is to be the trusted partner of Financial Institutions  by providing cutting edge Digital solutions. We are committed to harnessing the latest technologies, optimizing processes, and providing comprehensive solutions that empower our clients to operate more efficiently and profitably.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="mission-vision-box text-white">
+                                <h2 class="section-heading text-white line-bottom line-bottom-white">Goal</h2>
+                                <p>Consistently Innovate and set new industry benchmarks thus transforming the way NBFCs and MFIs serve their clients, making financial services more accessible and impactful  Digital</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -547,8 +1099,8 @@
                   <div class="principle-box">
                       <div class="title-icon">
                           <span class="icon">
-                              <img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Trailblazers-in_Innovation.svg" alt="Innovation | Binmile" data-lazy-src="https://binmile.com/wp-content/uploads/2023/07/Trailblazers-in_Innovation.svg" data-ll-status="loaded" class="entered lazyloaded">
-                              <noscript><img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Trailblazers-in_Innovation.svg" alt="Innovation | Binmile" /></noscript>
+                              <img width="100" height="100" src="assets/img/Innovation_img1.svg" alt="Innovation" data-lazy-src="assets/img/Innovation_img1.svg" data-ll-status="loaded" class="entered lazyloaded">
+                              <noscript><img width="100" height="100" src="assets/img/Innovation_img1.svg" alt="Innovation" /></noscript>
                           </span>
                           <h3 class="title">Innovation</h3>
                       </div>
@@ -559,8 +1111,8 @@
                   <div class="principle-box">
                       <div class="title-icon">
                           <span class="icon">
-                              <img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Growth_Mindset.svg" alt="Growth Mindset | Binmile" data-lazy-src="https://binmile.com/wp-content/uploads/2023/07/Growth_Mindset.svg" data-ll-status="loaded" class="entered lazyloaded">
-                              <noscript><img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Growth_Mindset.svg" alt="Growth Mindset | Binmile" /></noscript>
+                              <img width="100" height="100" src="assets/img/Growth_Mindset_img1.svg" alt="Growth Mindset" data-lazy-src="assets/img/Growth_Mindset_img1.svg" data-ll-status="loaded" class="entered lazyloaded">
+                              <noscript><img width="100" height="100" src="assets/img/Growth_Mindset_img1.svg" alt="Growth Mindset" /></noscript>
                           </span>
                           <h3 class="title">Growth Mindset</h3>
                       </div>
@@ -571,8 +1123,8 @@
                   <div class="principle-box">
                       <div class="title-icon">
                           <span class="icon">
-                              <img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Integrity_icon.svg" alt="Integrity | Binmile" data-lazy-src="https://binmile.com/wp-content/uploads/2023/07/Integrity_icon.svg" data-ll-status="loaded" class="entered lazyloaded">
-                              <noscript><img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Integrity_icon.svg" alt="Integrity | Binmile" /></noscript>
+                              <img width="100" height="100" src="assets/img/Integrity_img1.svg" alt="Integrity" data-lazy-src="assets/img/Integrity_img1.svg" data-ll-status="loaded" class="entered lazyloaded">
+                              <noscript><img width="100" height="100" src="assets/img/Integrity_img1.svg" alt="Integrity" /></noscript>
                           </span>
                           <h3 class="title">Integrity</h3>
                       </div>
@@ -583,8 +1135,8 @@
                   <div class="principle-box">
                       <div class="title-icon">
                           <span class="icon">
-                              <img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Commitment-to_Excellence.svg" alt="Commitment to Excellence | Binmile" data-lazy-src="https://binmile.com/wp-content/uploads/2023/07/Commitment-to_Excellence.svg" data-ll-status="loaded" class="entered lazyloaded">
-                              <noscript><img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Commitment-to_Excellence.svg" alt="Commitment to Excellence | Binmile" /></noscript>
+                              <img width="100" height="100" src="assets/img/Commitment-to_Excellence_img1.svg" alt="Commitment to Excellence" data-lazy-src="assets/img/Commitment-to_Excellence_img1.svg" data-ll-status="loaded" class="entered lazyloaded">
+                              <noscript><img width="100" height="100" src="assets/img/Commitment-to_Excellence_img1.svg" alt="Commitment to Excellence" /></noscript>
                           </span>
                           <h3 class="title">Commitment to Excellence</h3>
                       </div>
@@ -595,8 +1147,8 @@
                   <div class="principle-box">
                       <div class="title-icon">
                           <span class="icon">
-                              <img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Team-work.svg" alt="Team Work | Binmile" data-lazy-src="https://binmile.com/wp-content/uploads/2023/07/Team-work.svg" data-ll-status="loaded" class="entered lazyloaded">
-                              <noscript><img width="100" height="100" src="https://binmile.com/wp-content/uploads/2023/07/Team-work.svg" alt="Team Work | Binmile" /></noscript>
+                              <img width="100" height="100" src="assets/img/TeamWork_img1.svg" alt="Team Work" data-lazy-src="assets/img/TeamWork_img1.svg" data-ll-status="loaded" class="entered lazyloaded">
+                              <noscript><img width="100" height="100" src="assets/img/TeamWork_img1.svg" alt="Team Work" /></noscript>
                           </span>
                           <h3 class="title">Team-work</h3>
                       </div>
@@ -608,7 +1160,226 @@
           </div>
         </div>
 
-        <section class="con_div_padding" style="background-color: #4400a5;">
+
+        <!-- Roadmap Start -->
+        <!-- <section class="about-timeline">
+            <div class="wrapper inner-wrapper-padding">
+                <div class="start-point">
+                    <div class="black-dot"></div>
+                    <h4>Start</h4>
+                    <div class="corner bl"></div>
+                </div>
+
+                <div class="timeline-main">
+                    <div class="timeline-row">
+                        <div class="timeline-box timeline-content-img logo-timeline-arrow">
+                            <div class="timeline-box-wrap">
+                                <h6>1996</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Clipper</h5>
+                                        <p>DOS Operating System with Clipper Language</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-box timeline-content-img logo-timeline-arrow">
+                            <div class="timeline-box-wrap">
+                                <h6>1999</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Clipper to FoxPro</h5>
+                                        <p>and to Visual FoxPro</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="horizontal-line"></div>
+                        <div class="verticle-line"></div>
+                        <div class="corner top"></div>
+                        <div class="corner bottom"></div>
+                    </div>
+
+                    <div class="timeline-row">
+                        <div class="timeline-box img-right timeline-content-img">
+                            <div class="timeline-box-wrap">
+                                <h6>2007</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>.NET</h5>
+                                        <p>Made a Big Leap by moving to .NET</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-box">
+                            <div class="timeline-box-wrap">
+                                <h6>2010</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Microfinance Software
+                                        <p>for MFI Companies</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-box img-right timeline-content-img top-timeline-arrow">
+                            <div class="timeline-box-wrap">
+                                <h6>2013</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Mobile Collection</h5>
+                                        <p>and Mobile Banking</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="horizontal-line"></div>
+                        <div class="verticle-line"></div>
+                        <div class="corner top"></div>
+                        <div class="corner bottom"></div>
+                    </div>
+                    <div class="timeline-row">
+                        <div class="timeline-box img-left timeline-content-img">
+                            <div class="timeline-box-wrap">
+                                <h6>2015</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Mobile App</h5>
+                                        <p>with NEFT/RTGS for Android</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-box timeline-content-img">
+                            <div class="timeline-box-wrap">
+                                <h6>2017</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Dashboard</h5>
+                                        <p>Workflow-LOS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-box">
+                            <div class="timeline-box-wrap">
+                                <h6>2018</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Credit Bureau</h5>
+                                        <p>Loan Recovery</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="horizontal-line"></div>
+                        <div class="verticle-line"></div>
+                        <div class="corner top"></div>
+                        <div class="corner bottom"></div>
+                    </div>
+                    <div class="timeline-row">
+                        <div class="timeline-box">
+                            <div class="timeline-box-wrap">
+                                <h6>2021</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Process Automation</h5>
+                                        <p>(LOS)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-box timeline-content-img">
+                            <div class="timeline-box-wrap">
+                                <h6>2022</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Mobile App</h5>
+                                        <p>on Android & iOS with NEFT/RTGS IMPS/UPI-QR</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-box img-right timeline-content-img">
+                            <div class="timeline-box-wrap">
+                                <h6>2022</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Infra Migration</h5>
+                                        <p>Migrated all infra to Microsoft Azure Cloud</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="horizontal-line"></div>
+                        <div class="verticle-line"></div>
+                        <div class="corner top"></div>
+                        <div class="corner bottom"></div>
+                    </div>
+                    <div class="timeline-row">
+                        <div class="timeline-box timeline-content-img">
+                            <div class="timeline-box-wrap">
+                                <h6>2023</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Recovery Management</h5>
+                                        <p>&nbsp;</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-box">
+                            <div class="timeline-box-wrap">
+                                <h6>2023</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>LOS</h5>
+                                        <p>for Microfinance</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-box img-left timeline-content-img">
+                            <div class="timeline-box-wrap">
+                                <h6>2023</h6>
+                                <div class="timeline-content">
+                                    <img src="assets/img/Journey/clipper_icon.png">
+                                    <div class="timeline-content-txt">
+                                        <h5>Merchant App</h5>
+                                        <p>with Sound Box for QR</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="horizontal-line"></div>
+                        <div class="verticle-line"></div>
+                        <div class="corner top"></div>
+                        <div class="corner bottom"></div>
+                        <div class="start-point end-point">
+                            <h4>Continue</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Roadmap End -->
+
+        <section class="con_div_padding" style="background-color: #0e3b68;">
           <div class="container">
             <div class="row">
               <div class="col-md-8">
@@ -904,22 +1675,22 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                         <div class="footer__widget">
                             <div class="footer__logo">
-                                <a href="index.html"><img src="assets/img/Copass_logo.png" alt="logo"></a>
+                                <a href="index.html"><img src="assets/img/Copass_logo_white.png" alt="logo"></a>
                             </div>
                             <div class="footer__content">
                                 <p>CoPASS Technology & Services Private Limited is Information Technology company providing service since 25+ years & is incorporated under the Companies Act, 1956 as private limited.</p>
                             </div>
                             <div class="footer__social">
                                 <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100063806154324" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <!-- <li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
+                                    <li><a href="https://www.linkedin.com/company/73217717/admin/inbox/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.instagram.com/copass_technologies/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-3 col-sm-4">
+                    <div class="col-xl-2 col-lg-4 col-md-3 col-sm-4 col-6">
                         <div class="footer__widget">
                             <h4 class="footer__widget-title">Useful Links</h4>
                             <div class="footer__widget-link">
@@ -928,13 +1699,13 @@
                                         <a href="about.html"><i class="renova-right-arrow"></i><span>About Us</span></a>
                                     </li>
                                     <li>
-                                        <a href="Leadership.html"><i class="renova-right-arrow"></i><span>Leadership</span></a>
+                                        <a href="contact.html"><i class="renova-right-arrow"></i><span>Leadership</span></a>
                                     </li>
                                     <li>
-                                        <a href="Goals.html"><i class="renova-right-arrow"></i><span>Our Goals</span></a>
+                                        <a href="services.html"><i class="renova-right-arrow"></i><span>Our Goals</span></a>
                                     </li>
                                     <li>
-                                        <a href="Partners.html"><i class="renova-right-arrow"></i><span>Our Partners</span></a>
+                                        <a href="team.html"><i class="renova-right-arrow"></i><span>Our Partners</span></a>
                                     </li>
                                     <li>
                                         <a href="contact.html"><i class="renova-right-arrow"></i><span>Contact Us</span></a>
@@ -943,54 +1714,36 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-3 col-sm-6">
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
                         <div class="footer__widget">
-                            <h4 class="footer__widget-title">Our Services</h4>
+                            <h4 class="footer__widget-title">Our Products</h4>
                             <div class="footer__widget-link">
                                 <ul class="list-wrap">
                                     <li>
-                                        <a href="CoreBankingSolutions.html"><i class="renova-right-arrow"></i><span>Core Banking Solutions</span></a>
+                                        <a href="Our Products.html"><i class="renova-right-arrow"></i><span>Stream LOS</span></a>
                                     </li>
                                     <li>
-                                        <a href="CreditBureauSolution.html"><i class="renova-right-arrow"></i><span>Credit Bureau Solution</span></a>
+                                        <a href="Cops.html"><i class="renova-right-arrow"></i><span>COPS</span></a>
                                     </li>
                                     <li>
-                                        <a href="RecoveryManagement.html"><i class="renova-right-arrow"></i><span>Recovery Management</span></a>
+                                        <a href="EzyB.html"><i class="renova-right-arrow"></i><span>EzyB</span></a>
                                     </li>
                                     <li>
-                                        <a href="WorkflowManagement.html"><i class="renova-right-arrow"></i><span>Workflow Management</span></a>
+                                        <a href="AppCo.html"><i class="renova-right-arrow"></i><span>APPCo</span></a>
                                     </li>
                                     <li>
-                                        <a href="MobileBanking.html"><i class="renova-right-arrow"></i><span>Mobile Banking</span></a>
+                                        <a href="BanqOn.html"><i class="renova-right-arrow"></i><span>BanqOn</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="ReCoup.html"><i class="renova-right-arrow"></i><span>ReCoup</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="CoBIS.html"><i class="renova-right-arrow"></i><span>CoBIS</span></a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6">
-                        <div class="footer__widget">
-                            <h4 class="footer__widget-title">Quick Info</h4>
-                            <div class="footer__widget-link">
-                                <ul class="list-wrap">
-                                    <li>
-                                        <a href="about.html"><i class="renova-right-arrow"></i><span>Our Story</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="appointment.html"><i class="renova-right-arrow"></i><span>Appointment</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html"><i class="renova-right-arrow"></i><span>Terms & Condition</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html"><i class="renova-right-arrow"></i><span>Get in touch</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="project.html"><i class="renova-right-arrow"></i><span>Project Showcase</span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
                     <div class="col-xl-4 col-lg-4 col-md-8">
                         <div class="footer__widget">
                             <h4 class="footer__widget-title">CONTACT US</h4>
@@ -1020,8 +1773,8 @@
                     <div class="col-md-5">
                         <div class="footer__bottom-menu">
                             <ul class="list-wrap">
-                                <li><a href="TermsAndConditions.html">Terms and Conditions</a></li>
-                                <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+                                <li><a href="contact.html">Terms and Conditions</a></li>
+                                <li><a href="contact.html">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1055,6 +1808,151 @@
     <!-- <script>
         SVGInject(document.querySelectorAll("img.injectable"));
     </script> -->
+
+    <script type="text/javascript">
+        var canvas = document.querySelector("#scene"),
+    ctx = canvas.getContext("2d"),
+    particles = [],
+    amount = 0,
+    mouse = {
+        x: 0,
+        y: 0
+    },
+    radius = 0.7; //Init radius of the force field
+
+var colors = ["rgba(26, 188, 156, .6)", "rgba(46, 204, 113, .4)", "rgba(52, 152, 219, .4)", "rgba(52, 152, 219, .4)", "rgba(241, 196, 15, .6)", "rgba(231, 76, 60, .4)"];
+
+var colorsTwo = ["rgba(26, 188, 156, 1)", "rgba(46, 204, 113, 1)", "rgba(52, 152, 219, 1)", "rgba(52, 152, 219, 1)", "rgba(241, 196, 15, 1)", "rgba(231, 76, 60, 1)"];
+
+var copy = "CoPASS ♥"; // Text to display
+
+var initSize = Math.floor(Math.random() * .6) + 1  ;
+var hoverSize = initSize + .9;
+
+var ww = canvas.width = window.innerWidth;
+var wh = canvas.height = window.innerHeight;
+
+function Particle(x, y) {
+    this.x = Math.random() * ww;
+    this.y = Math.random() * wh;
+    this.dest = {
+        x: x,
+        y: y
+    };
+    //this.r = Math.random() * 1; // the size of bubbles
+    this.vx = (Math.random() - 0.5) * 4;
+    this.vy = (Math.random() - 0.5) * 4;
+    this.accX = 0;
+    this.accY = 0;
+    this.friction = Math.random() * 0.015 + 0.94; // force of bounce, just try to change 0.015 to 0.5
+
+    //this.color = colors[Math.floor(Math.random() * 10)];  
+    //this.colorTwo = colorsTwo[Math.floor(Math.random() * 10)];
+
+}
+
+Particle.prototype.render = function() {
+
+    this.accX = (this.dest.x - this.x) / 400; //acceleration for X
+    this.accY = (this.dest.y - this.y) / 400; //acceleration for Y
+    this.vx += this.accX;
+    this.vy += this.accY;
+    this.vx *= this.friction;
+    this.vy *= this.friction;
+
+    this.x += this.vx;
+    this.y += this.vy;
+
+    ctx.fillStyle = this.color;
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.r, Math.PI * 2, false);
+    ctx.fill();
+
+    var a = this.x - mouse.x;
+    var b = this.y - mouse.y;
+
+    var distance = Math.sqrt(a * a + b * b);
+    if (distance < (radius * 70)) {
+        this.accX = (this.x - mouse.x) / 20; //acceleration on mouseover X, smaller faster
+        this.accY = (this.y - mouse.y) / 20; //acceleration on mouseover Y, smaller faster
+        this.vx += this.accX;
+        this.vy += this.accY;
+        //ctx.fillStyle = this.colorTwo;
+    }
+    
+    if (distance < (radius * 70)) {
+        this.colorTwo = colorsTwo[Math.floor(Math.random() * 10)];
+        ctx.fillStyle = this.colorTwo;
+        this.r = hoverSize; // the size of bubbles
+    }
+    
+    if (distance > (radius * 70)) {
+        this.colorOne = colors[Math.floor(Math.random() * 10)];
+        ctx.fillStyle = this.colorOne;
+        this.r = initSize
+    }
+
+}
+
+function onMouseMove(e) {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+}
+
+function initScene() {
+    ww = canvas.width = window.innerWidth;
+    wh = canvas.height = window.innerHeight;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    ctx.font = "bold " + (ww / 5) + "px sans-serif"; // Size of the text
+    ctx.textAlign = "center";
+    ctx.fillText(copy, ww / 2, wh / 2); //Centering
+
+    var data = ctx.getImageData(0, 0, ww, wh).data;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.globalCompositeOperation = "screen";
+
+    particles = [];
+    for (var i = 0; i < ww; i += Math.round(ww / 400)) { //400 here represents the amount of particles
+        for (var j = 0; j < wh; j += Math.round(ww / 400)) {
+            if (data[((i + j * ww) * 4) + 3] > 250) {
+                particles.push(new Particle(i, j));
+            }
+        }
+    }
+    amount = particles.length;
+
+}
+
+function onMouseClick() {
+    radius = 4; //onclick expand radius
+    
+}
+
+function offMouseClick() {
+    radius = 0.5; //offClick init radius
+}
+
+function delayedInitRadius() {
+    setTimeout(offMouseClick, 500); //delay for offClick init radius
+}
+
+function render(a) {
+    requestAnimationFrame(render);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (var i = 0; i < amount; i++) {
+        particles[i].render();
+    }
+};
+
+window.addEventListener("resize", initScene);
+window.addEventListener("mousemove", onMouseMove);
+window.addEventListener("mousedown", onMouseClick);
+window.addEventListener("mouseup", delayedInitRadius);
+initScene();
+requestAnimationFrame(render);
+    </script>
 </body>
 
 </html>

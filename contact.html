@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/tg-cursor.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/My_style.css">
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 </head>
 
 <body>
@@ -48,7 +50,7 @@
 
     <!-- header-area -->
     <header>
-        <div class="tg-header__top">
+        <!-- <div class="tg-header__top">
             <div class="container custom-container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -66,11 +68,6 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-4">
-                        <div class="tg-header__top-delivery">
-                            <p>Express delivery and free returns within 24 hours</p>
-                        </div>
-                    </div> -->
                     <div class="col-lg-6">
                         <div class="tg-header__top-social">
                             <ul class="list-wrap">
@@ -83,7 +80,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="header-fixed-height"></div>
         <div id="sticky-header" class="tg-header__area">
             <div class="container custom-container">
@@ -91,26 +88,29 @@
                     <div class="col-12">
                         <div class="tgmenu__wrap">
                             <nav class="tgmenu__nav">
-                                <div class="offCanvas-toggle">
+                                <!-- <div class="offCanvas-toggle">
                                     <a href="javascript:void(0)" class="menu-tigger">
                                         <img src="assets/img/icons/bar_icon.svg" alt="" class="injectable">
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="logo">
                                     <a href="index.html"><img src="assets/img/Copass_logo.png" alt="Logo"></a>
                                 </div>
                                 <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                     <ul class="navigation">
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
                                         <li class="active menu-item-has-children"><a href="#">Company</a>
                                             <ul class="sub-menu">
                                                 <li><a href="about.html">About Us</a></li>
                                                 <li><a href="Leadership.html">Leadership</a></li>
-                                                <li><a href="Goals.html">Our Goals</a></li>
+                                                <!-- <li><a href="Goals.html">Our Goals</a></li> -->
                                                 <li><a href="Partners.html">Partners</a></li>
                                                 <li><a href="clients.html">Clients</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="#">Services</a>
+                                        <!-- <li class="menu-item-has-children"><a href="#">Services</a>
                                             <ul class="sub-menu">
                                                 <li><a href="CoreBankingSolutions.html">Core Banking Solutions</a></li>
                                                 <li><a href="CreditBureauSolution.html">Credit Bureau Solution</a></li>
@@ -118,11 +118,22 @@
                                                 <li><a href="WorkflowManagement.html">Workflow Management</a></li>
                                                 <li><a href="MobileBanking.html">Mobile Banking</a></li>
                                             </ul>
+                                        </li> -->
+                                        <li class="menu-item-has-children"><a href="#">Products</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="Stream_LOS.html">Stream LOS</a></li>
+                                                <li><a href="Cops.html">COPS</a></li>
+                                                <li><a href="EzyB.html">EzyB</a></li>
+                                                <li><a href="AppCo.html">AppCo</a></li>
+                                                <li><a href="BanqOn.html">BanqOn</a></li>
+                                                <li><a href="ReCoup.html">ReCoup</a></li>
+                                                <li><a href="CoBIS.html">CoBIZ</a></li>
+                                            </ul>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <a href="Blogs.html">Blogs</a>
-                                        </li>
-                                        <li>
+                                        </li>-->
+                                         <li>
                                             <a href="Careers.html">Careers</a>
                                         </li>
                                         <li class="active">
@@ -130,9 +141,12 @@
                                         </li>
                                         <li class="menu-item-has-children"><a href="#">Login</a>
                                             <ul class="sub-menu">
-                                                <li><a href="https://ecloud.copass.in/Home.aspx"><img src="assets/img/ezyb.png" height="45"></a></li>
-                                                <li><a href="https://ecloud.copass.in/civslogin.aspx"><img src="assets/img/cobis.png" height="45"></a></li>
-                                                <li><a href="http://stream.copass.in/WF_LIVE/auth" target="_blank"><img src="assets/img/stream.png" height="45"></a></li>
+                                                <li><a href="https://ecloud.copass.in"><img src="assets/img/ezyb.png" height="40" alt="EzyB"></a></li>
+                                                <li><a href="https://ecloud.copass.in/CIVSLogin.aspx"><img src="assets/img/cobis.png" height="40" alt="Cobiz"></a></li>
+                                                <li><a href="https://demo-los.copass.in" target="_blank"><img src="assets/img/stream.png" height="40" alt="Stream"></a></li>
+
+                                                <li><a href="https://recoup.copass.in" target="_blank"><img src="assets/img/Recoup_logo.png" height="40" alt="Recoup"></a></li>
+                                                <li><a href="https://demo-copsprodui.copass.in" target="_blank"><img src="assets/img/Cops_logo.png" height="40" alt="Cops"></a></li>
                                             </ul>
                                         </li>
                                        
@@ -156,9 +170,9 @@
                                 </div>
                                 <div class="tgmenu__action">
                                     <ul class="list-wrap">
-                                        <li class="header-search">
+                                        <!-- <li class="header-search">
                                             <a href="javascript:void(0)" class="search-open-btn"><i class="renova-search"></i></a>
-                                        </li>
+                                        </li> -->
                                         <!-- <li class="header-cart">
                                             <a href="shop.html" class="cart-count">
                                                 <i class="renova-cart"></i>
@@ -166,7 +180,7 @@
                                             </a>
                                         </li> -->
                                         <li class="header-btn">
-                                            <a href="javascript:void(0)" class="btn border-btn demo-trigger">Demo</a>
+                                            <a href="javascript:void(0)" class="btn border-btn demo-trigger demo_btn">Demo</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -254,7 +268,7 @@
                 <button><i class="far fa-window-close"></i></button>
             </div>
             <div class="offCanvas__logo mb-30">
-                <a href="index.html"><img src="assets/img/Copass_logo.png" alt="Logo"></a>
+                <a href="index.html"><img src="assets/img/Copass_logo_white.png" alt="Logo"></a>
             </div>
             <div class="offCanvas__side-info mb-30">
                 <div class="contact-list mb-30">
@@ -263,12 +277,12 @@
                 </div>
                 <div class="contact-list mb-30">
                     <h4>Phone Number</h4>
-                    <p>+91 9920 682549</p>
-                    <p>+91 9619 879236</p>
+                    <p>+91 7710 048275</p>
+                    <p>+91 9619 879245</p>
                 </div>
                 <div class="contact-list mb-30">
                     <h4>Email Address</h4>
-                    <p>support@copass.in</p>
+                    <p>sales@copass.in</p>
                     <!-- <p>example.mail@hum.com</p> -->
                 </div>
             </div>
@@ -291,39 +305,191 @@
             <div class="offCanvas__logo mb-30">
                 <h3>Request For Demo</h3>
             </div>
-            <div class="offCanvas__side-info mb-30 contact__form">
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-grp">
-                            <label>First Name</label>
-                            <input type="text" class="form-control" name="" placeholder="Firt Name" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-grp">
-                            <label>Last Name</label>
-                            <input type="text" class="form-control" name="" placeholder="Last Name" />
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-grp">
-                            <label>Email</label>
-                            <input type="Email" class="form-control" name="" placeholder="Name here" />
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-grp">
-                            <label>Phone Number</label>
-                            <input type="Email" class="form-control" name="" placeholder="Name here" />
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-grp">
-                            <button type="submit" class="btn btn-two d-block">Request Sent</button>
-                        </div>
-                    </div>
+
+            <!-- <form id="contact">
+                <div>
+                  <label for="form-name">Name</label>
+                <input id="form-name" type="text" />
                 </div>
+                <div>
+                  <label for="form-subject">Subject</label>
+                <input id="form-subject" type="text" />
+                </div>
+                <div>
+                  <label for="form-message">Message</label>
+                <textarea id="form-message"></textarea>
+                </div>
+                  <button type="submit">Send Message</button>
+            </form>
+
+     
+
+            <script type="text/javascript">
+                const token = "b56a2857-9e45-4921-b7b6-2b1d53b10cbf";
+                const $formContact = document.querySelector("#contact");
+
+                const sendForm = event => {
+                  event.preventDefault();
+                  const message = {
+                    name: document.querySelector("#form-name").value,
+                    subject: document.querySelector("#form-subject").value,
+                    text: document.querySelector("#form-message").value
+                  };
+                  smtpJS(message);
+                };
+                const smtpJS = message => {
+                  try {
+                    Email.send(
+                      "raulfdm@hotmail.com",
+                      "devtesteapps@gmail.com",
+                      `${message.name} - ${message.subject}`,
+                      message.text,
+                      { token }
+                    );
+                  } catch (e) {
+                    alert("Erro");
+                  }
+                };
+
+                $formContact.addEventListener("submit", sendForm);
+            </script> -->
+
+
+
+            <form action="" method="post" id="frm">
+                <label for="inputEmail4"><b> Email Address<span>*</span></b></label></br>
+                <input type="email" name="mail" placeholder="@gmail.com" id="inputEmail4" required><br>
+
+                <label for="Inputname"><b>Your Name<span>*</span></b></label></br>
+                <input type="text" name="username" placeholder="Your Full Name" pattern="[A-Za-z0-9]+" id="inputName" required><br>
+
+                <label for="inputPhone">Phone Number<span>*</span></label><br><br>
+                <input type="phone" id="inputPhone" class="con-no" name="phone" placeholder="0123456789" id="inputPhone" required><br><br>
+
+                <!-- <small>Format: 012-345-6789</small> -->
+                <br><br>
+
+                <label for="Message"><b>Message</b></label></br>
+                <input type="text" name="comment" placeholder="Message Us" size="50" id="Message" minlength="20" required><br><br>
+
+                <div class="btns">
+                  <button type="submit" id="subm">
+                    Send Message
+                  </button>
+                  <div class="btn-2"><input type="reset" value="Reset"></div>
+                </div>
+              </form>
+
+
+
+
+
+
+            <div class="offCanvas__side-info mb-30 contact__form">
+                <form action="javascript:sendMail();" name="pmForm" id="pmForm" method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-grp">
+                                <label>First Name</label>
+                                <input type="text" class="form-control" name="" id="FName" placeholder="Firt Name" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-grp">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control" name="" id="LName" placeholder="Last Name" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-grp">
+                                <label>Email</label>
+                                <input type="Email" class="form-control" name="" id="Email_id" placeholder="Name here" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-grp">
+                                <label>Phone Number</label>
+                                <input type="text" class="form-control" name="" id="PhoneNumber" placeholder="Name here" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-grp">
+                                <button type="submit" class="btn btn-two d-block" id="Request_btn" onclick="sendEmail()">Request Sent</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+
+                <form method="post">
+                    <input type="text" id="emailSubject" placeholder="Type your 
+                    subject... "/>
+                    <input type="text" id="emailBody" placeholder="Type something... "/>
+                    <button onclick="send()">
+                        Send
+                    </button>
+                </form>
+
+                <script type="text/javascript">
+                    const emailSubject = document.getElementById("emailSubject").value;
+                    const emailBody = document.getElementById("emailBody").value;
+
+                    function send() {
+                        Email.send({
+                        Host: "smtp.elasticemail.com",
+                        Username: "baikar.prashant7@gmail.com",
+                        Password: "86B51B5124BAA3A55B7261BCF908E668F609",
+                        To: "baikar.prashant703@gmail.com",
+                        From: "myemail@gmail.com",
+                        Subject: emailSubject,
+                        Body: emailBody,
+                        }).then(
+                            message => alert("Sent successfully.")
+                        );
+                    }
+                </script>
+
+                
+
+
+                 <form id="contact-form" method="post" onsubmit="sendEmail(event)">
+                    <label for="name">Name:</label>
+                    <input type="text" id="Fname" name="Fname" ><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="EmailId" name="EmailId" ><br><br>
+
+                    <label for="message">Phone No</label>
+                    <input type="text" id="PhoneNo" name="PhoneNo" ><br><br>
+
+                    <button type="submit" >Send Email</button>
+                </form>
+
+
+
+                <!-- <form method="post">
+                    <input type="button" value="Send Email" onclick="sendEmail()" />
+                </form>
+
+                <script type="text/javascript">
+                    function sendEmail() {
+                        Email.send({
+                            Host: "smtp.gmail.com",
+                            Username: "sender@email_address.com",
+                            Password: "Enter your password",
+                            To: 'receiver@email_address.com',
+                            From: "sender@email_address.com",
+                            Subject: "Sending Email using javascript",
+                            Body: "Well that was easy!!",
+                        })
+                            .then(function (message) {
+                                alert("mail sent successfully")
+                            });
+                    }
+                </script> -->
+
+
             </div>
         </div>
         <div class="offCanvas__overly"></div>
@@ -344,13 +510,13 @@
                     <div class="col-lg-12">
                         <div class="breadcrumb__content">
                             <h2 class="title">Contact Us</h2>
-                            <nav class="breadcrumb">
+                            <!-- <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
                                     <a href="index.html">Home</a>
                                 </span>
                                 <span class="breadcrumb-separator">/</span>
                                 <span property="itemListElement" typeof="ListItem">Contact Us</span>
-                            </nav>
+                            </nav> -->
                         </div>
                     </div>
                 </div>
@@ -388,7 +554,7 @@
                           </figure>
                           <div class="contact_data">
                             <h4>Contact Us</h4>
-                            <p>+91 9920682549, +91 9619879236 <br>support@copass.in</p>
+                            <p>+91 7710048275, +91 8879701070 <br>sales@copass.in</p>
                           </div>
                         </div>
                       </div>
@@ -408,7 +574,7 @@
               <div class="col-md-7 order-md-2 mb-30">
                   <div class="contact-form-wrapper sticky-top">
                       <div class="title_div">
-                        <h2 class="section-heading">Contact Us <br>For Help</h2>
+                        <h2 class="section-heading">Contact Us <br>For Demo</h2>
                       </div>
                       
                       <div class="form-wrapper">
@@ -517,22 +683,22 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                         <div class="footer__widget">
                             <div class="footer__logo">
-                                <a href="index.html"><img src="assets/img/Copass_logo.png" alt="logo"></a>
+                                <a href="index.html"><img src="assets/img/Copass_logo_white.png" alt="logo"></a>
                             </div>
                             <div class="footer__content">
                                 <p>CoPASS Technology & Services Private Limited is Information Technology company providing service since 25+ years & is incorporated under the Companies Act, 1956 as private limited.</p>
                             </div>
                             <div class="footer__social">
                                 <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100063806154324" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <!-- <li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
+                                    <li><a href="https://www.linkedin.com/company/73217717/admin/inbox/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.instagram.com/copass_technologies/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-3 col-sm-4">
+                    <div class="col-xl-2 col-lg-4 col-md-3 col-sm-4 col-6">
                         <div class="footer__widget">
                             <h4 class="footer__widget-title">Useful Links</h4>
                             <div class="footer__widget-link">
@@ -556,25 +722,31 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-3 col-sm-6">
+                    <div class="col-xl-3 col-lg-4 col-md-3 col-sm-6 col-6">
                         <div class="footer__widget">
-                            <h4 class="footer__widget-title">Our Services</h4>
+                            <h4 class="footer__widget-title">Our Products</h4>
                             <div class="footer__widget-link">
                                 <ul class="list-wrap">
                                     <li>
-                                        <a href="CoreBankingSolutions.html"><i class="renova-right-arrow"></i><span>Core Banking Solutions</span></a>
+                                        <a href="Stream_LOS.html"><i class="renova-right-arrow"></i><span>LOS</span></a>
                                     </li>
                                     <li>
-                                        <a href="CreditBureauSolution.html"><i class="renova-right-arrow"></i><span>Credit Bureau Solution</span></a>
+                                        <a href="Cops.html"><i class="renova-right-arrow"></i><span>COPS</span></a>
                                     </li>
                                     <li>
-                                        <a href="RecoveryManagement.html"><i class="renova-right-arrow"></i><span>Recovery Management</span></a>
+                                        <a href="EzyB.html"><i class="renova-right-arrow"></i><span>EzyB</span></a>
                                     </li>
                                     <li>
-                                        <a href="WorkflowManagement.html"><i class="renova-right-arrow"></i><span>Workflow Management</span></a>
+                                        <a href="AppCo.html"><i class="renova-right-arrow"></i><span>AppCo</span></a>
                                     </li>
                                     <li>
-                                        <a href="MobileBanking.html"><i class="renova-right-arrow"></i><span>Mobile Banking</span></a>
+                                        <a href="BanqOn.html"><i class="renova-right-arrow"></i><span>BanqOn</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="ReCoup.html"><i class="renova-right-arrow"></i><span>ReCoup</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="CoBIS.html"><i class="renova-right-arrow"></i><span>CoBIS</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -649,6 +821,7 @@
 
     <!-- JS here -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
@@ -665,9 +838,80 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    
     <!-- <script>
         SVGInject(document.querySelectorAll("img.injectable"));
     </script> -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#Request_btn').click(function() {
+                $('#Demo_form').attr('action',
+                               'mailto:baikar.prashant703@gmail.com?subject=' +
+                               $('#FName').val() + '&body=' + $('#LName').val());
+                $('#Demo_form').submit();
+            });
+        });
+    </script>
+
+
+
+
+  <script type="text/javascript">
+        function sendEmail() {
+            const Fname = document.getElementById("FName").value;
+            // const Lname = document.getElementById("LName").value;
+            const EmailId = document.getElementById("Email_id").value;
+            const PhoneNo = document.getElementById("PhoneNumber").value;
+
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Fname : Fname,
+                // Lname : Lname,
+                EmailId : EmailId,
+                PhoneNo : PhoneNo,
+                To : 'baikar.prashant703@gmail.com',
+            })
+            .then(function(message){
+                alert("mail sent successfully")
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+          $("#frm").submit(function () {
+            var inputName = $("#inputName").val();
+            var inputPhone = $("#inputPhone").val();
+            var inputEmail4 = $("#inputEmail4").val();
+            var Message = $("#Message").val();
+
+            var mailBody = "<table>";
+            mailBody += '<tr><td colspan="2">Here is the mail content.</td></tr>';
+            mailBody +=
+              "<tr><td><strong>Name: </strong></td><td>" + inputName + "</td></tr>";
+            mailBody +=
+              "<tr><td><strong>Phone: </strong></td><td>" + inputPhone + "</td></tr>";
+            mailBody +=
+              "<tr><td><strong>Email: </strong></td><td>" + inputEmail4 + "</td></tr>";
+            mailBody +=
+              "<tr><td><strong>Message: </strong></td><td>" + Message + "</td></tr>";
+            mailBody += '<tr><td  colspan="2">Thanks!</td></tr>';
+            mailBody += "</table>";
+            Email.send({
+              Host: "smtp.elasticemail.com",
+              Username: "baikar.prashant7@gmail.com",
+              Password: "86B51B5124BAA3A55B7261BCF908E668F609",
+              To: "baikar.prashant7@gmail.com",
+              From: "baikar.prashant7@gmail.com",
+              Subject: "Post mail",
+              Body: mailBody
+            }).then((message) => alert("Massage has send"));
+            document.getElementById("frm").reset();
+            return false;
+          });
+        });
+    </script>
 </body>
 
 </html>

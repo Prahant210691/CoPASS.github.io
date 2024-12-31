@@ -26,6 +26,255 @@
     <link rel="stylesheet" href="assets/css/tg-cursor.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/My_style.css">
+
+    <style type="text/css">
+        .interview-series {
+            margin: 90px auto;
+            max-width: 1262px;
+            width: 100%;
+        }
+        .interview-series .heading__title {
+    color: #0047ab;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+}
+.interview-series__container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 84px;
+    margin-bottom: 84px;
+}
+.interview-series__container .interview-banner {
+    background: linear-gradient(90deg, #fff, #e8edf8);
+    border-radius: 8px;
+/*    height: 336px;*/
+    height: 260px;
+    position: relative;
+    width: 100%;
+}
+.interview-series__container .interview-banner::before{
+    content: "";
+    background: url('https://ekotek.vn/images/about-us/background_series.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 8px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+
+}
+.interview-series__container .interview-banner .wrap-background {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.interview-series__container .interview-banner__container {
+    display: flex
+;
+    flex-direction: column;
+    left: 80px;
+    max-width: 694px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.interview-series__container .interview-banner .interview-wrapper {
+    align-items: center;
+    color: #3a7af3;
+    display: flex
+;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.interview-series__container .interview-banner p {
+    margin: unset;
+    padding: unset;
+}
+.interview-series__container .interview-banner .interview-wrapper .brand {
+    height: 24px;
+    position: relative;
+    width: 161px;
+}
+.interview-series__container .interview-banner .author-wrapper {
+    margin-top: 0;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.interview-series__container .interview-banner .author-wrapper span {
+    color: #292929;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.interview-series__container .interview-banner .author-wrapper p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.interview-series__container .interview-banner .author-wrapper p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.interview-series__container .interview-banner .author-says {
+    align-items: flex-start;
+    margin-top: 8px;
+}
+.interview-series__container .interview-banner .author-says .icon-quote {
+    height: 36px;
+    position: relative;
+    width: 20px;
+}
+.interview-series__container .interview-banner .author-says p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.interview-series__container .interview-banner .author-says ul{
+    list-style-type: none;
+    padding: 0px 0px;
+}
+.interview-series__container .interview-banner .author-says ul.describe li:before {
+    content: "\f105";
+    display: block;
+    font-family: var(--tg-icon-font-family);
+    float: left;
+    color: rgba(13, 19, 85, 0.6);
+    font-size: 1.2em;
+    margin-right: 10px;
+    line-height: 1.2;
+    font-weight: var(--tg-fw-bold);
+}
+
+.interview-series__container .interview-banner .author-says .social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.interview-series__container .interview-banner .author-says .social a {
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background: #c4dcff;
+}
+.interview-series__container .interview-banner .author-says .social a i {
+    color: #37517e;
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.interview-series__container .interview-banner a {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.interview-series__container .interview-banner .read-full {
+    align-items: center;
+    display: flex
+;
+    margin-top: 24px;
+}
+.interview-series__container .interview-banner .read-full p {
+    color: #0047ab;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: start;
+}
+.interview-series__container .interview-banner .read-full .wrap-icon {
+    align-items: center;
+    display: flex
+;
+    height: 24px;
+    width: 24px;
+}
+.interview-series__container .interview-banner .read-full .wrap-icon span {
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+.interview-series__container .interview-banner__image {
+    bottom: 0;
+    height: 318px;
+    left: calc(100% - 85px);
+    position: relative;
+    position: absolute;
+    transform: translate(-85%);
+    width: 315px;
+    overflow: hidden;
+}
+
+.interview-series__container .interview-banner .tag-flag {
+    position: absolute;
+    right: 75px;
+    top: 0;
+
+}
+.interview-series__container .interview-banner .tag-flag img {
+    filter: hue-rotate(200deg) brightness(65%) contrast(175%);
+}
+.interview-series__container .interview-banner .background {
+    border-radius: 8px;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.interview-series__container .interview-banner:nth-child(2),
+.interview-series__container .interview-banner:nth-child(4) {
+    flex-flow: row-reverse nowrap;
+}
+.interview-series__container .interview-banner:nth-child(2) .interview-banner__container,
+.interview-series__container .interview-banner:nth-child(4) .interview-banner__container {
+    left: unset;
+    right: 80px;
+    transform: translateY(-50%);
+}
+.interview-series__container .interview-banner:nth-child(2) .interview-banner__image,
+.interview-series__container .interview-banner:nth-child(4) .interview-banner__image {
+    height: 318px;
+    left: 60px;
+    right: unset;
+    transform: unset;
+    width: 354px;
+    bottom: 0 !important;
+}
+.interview-series__container .interview-banner:nth-child(2) .tag-flag,
+.interview-series__container .interview-banner:nth-child(4) .tag-flag {
+    left: 80px;
+    position: absolute;
+    top: 0;
+}
+
+    </style>
+
 </head>
 
 <body>
@@ -48,7 +297,7 @@
 
     <!-- header-area -->
     <header>
-        <div class="tg-header__top">
+        <!-- <div class="tg-header__top">
             <div class="container custom-container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -66,11 +315,6 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-4">
-                        <div class="tg-header__top-delivery">
-                            <p>Express delivery and free returns within 24 hours</p>
-                        </div>
-                    </div> -->
                     <div class="col-lg-6">
                         <div class="tg-header__top-social">
                             <ul class="list-wrap">
@@ -83,7 +327,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="header-fixed-height"></div>
         <div id="sticky-header" class="tg-header__area">
             <div class="container custom-container">
@@ -91,26 +335,29 @@
                     <div class="col-12">
                         <div class="tgmenu__wrap">
                             <nav class="tgmenu__nav">
-                                <div class="offCanvas-toggle">
+                                <!-- <div class="offCanvas-toggle">
                                     <a href="javascript:void(0)" class="menu-tigger">
                                         <img src="assets/img/icons/bar_icon.svg" alt="" class="injectable">
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="logo">
                                     <a href="index.html"><img src="assets/img/Copass_logo.png" alt="Logo"></a>
                                 </div>
                                 <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                     <ul class="navigation">
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
                                         <li class="active menu-item-has-children"><a href="#">Company</a>
                                             <ul class="sub-menu">
                                                 <li><a href="about.html">About Us</a></li>
                                                 <li class="active"><a href="Leadership.html">Leadership</a></li>
-                                                <li><a href="Goals.html">Our Goals</a></li>
+                                                <!-- <li><a href="Goals.html">Our Goals</a></li> -->
                                                 <li><a href="Partners.html">Partners</a></li>
                                                 <li><a href="clients.html">Clients</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="#">Services</a>
+                                        <!-- <li class="menu-item-has-children"><a href="#">Services</a>
                                             <ul class="sub-menu">
                                                 <li><a href="CoreBankingSolutions.html">Core Banking Solutions</a></li>
                                                 <li><a href="CreditBureauSolution.html">Credit Bureau Solution</a></li>
@@ -118,11 +365,22 @@
                                                 <li><a href="WorkflowManagement.html">Workflow Management</a></li>
                                                 <li><a href="MobileBanking.html">Mobile Banking</a></li>
                                             </ul>
+                                        </li> -->
+                                        <li class="menu-item-has-children"><a href="#">Products</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="Stream_LOS.html">Stream LOS</a></li>
+                                                <li><a href="Cops.html">COPS</a></li>
+                                                <li><a href="EzyB.html">EzyB</a></li>
+                                                <li><a href="AppCo.html">AppCo</a></li>
+                                                <li><a href="BanqOn.html">BanqOn</a></li>
+                                                <li><a href="ReCoup.html">ReCoup</a></li>
+                                                <li><a href="CoBIS.html">CoBIZ</a></li>
+                                            </ul>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <a href="Blogs.html">Blogs</a>
-                                        </li>
-                                        <li>
+                                        </li>-->
+                                         <li>
                                             <a href="Careers.html">Careers</a>
                                         </li>
                                         <li>
@@ -130,9 +388,12 @@
                                         </li>
                                         <li class="menu-item-has-children"><a href="#">Login</a>
                                             <ul class="sub-menu">
-                                                <li><a href="https://ecloud.copass.in/Home.aspx"><img src="assets/img/ezyb.png" height="45"></a></li>
-                                                <li><a href="https://ecloud.copass.in/civslogin.aspx"><img src="assets/img/cobis.png" height="45"></a></li>
-                                                <li><a href="http://stream.copass.in/WF_LIVE/auth" target="_blank"><img src="assets/img/stream.png" height="45"></a></li>
+                                                <li><a href="https://ecloud.copass.in"><img src="assets/img/ezyb.png" height="40" alt="EzyB"></a></li>
+                                                <li><a href="https://ecloud.copass.in/CIVSLogin.aspx"><img src="assets/img/cobis.png" height="40" alt="Cobiz"></a></li>
+                                                <li><a href="https://demo-los.copass.in" target="_blank"><img src="assets/img/stream.png" height="40" alt="Stream"></a></li>
+
+                                                <li><a href="https://recoup.copass.in" target="_blank"><img src="assets/img/Recoup_logo.png" height="40" alt="Recoup"></a></li>
+                                                <li><a href="https://demo-copsprodui.copass.in" target="_blank"><img src="assets/img/Cops_logo.png" height="40" alt="Cops"></a></li>
                                             </ul>
                                         </li>
                                        
@@ -156,9 +417,9 @@
                                 </div>
                                 <div class="tgmenu__action">
                                     <ul class="list-wrap">
-                                        <li class="header-search">
+                                        <!-- <li class="header-search">
                                             <a href="javascript:void(0)" class="search-open-btn"><i class="renova-search"></i></a>
-                                        </li>
+                                        </li> -->
                                         <!-- <li class="header-cart">
                                             <a href="shop.html" class="cart-count">
                                                 <i class="renova-cart"></i>
@@ -166,7 +427,7 @@
                                             </a>
                                         </li> -->
                                         <li class="header-btn">
-                                            <a href="javascript:void(0)" class="btn border-btn demo-trigger">Demo</a>
+                                            <a href="javascript:void(0)" class="btn border-btn demo-trigger demo_btn">Demo</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -254,7 +515,7 @@
                 <button><i class="far fa-window-close"></i></button>
             </div>
             <div class="offCanvas__logo mb-30">
-                <a href="index.html"><img src="assets/img/Copass_logo.png" alt="Logo"></a>
+                <a href="index.html"><img src="assets/img/Copass_logo_white.png" alt="Logo"></a>
             </div>
             <div class="offCanvas__side-info mb-30">
                 <div class="contact-list mb-30">
@@ -344,13 +605,13 @@
                     <div class="col-lg-12">
                         <div class="breadcrumb__content">
                             <h2 class="title">Leadership</h2>
-                            <nav class="breadcrumb">
+                            <!-- <nav class="breadcrumb">
                                 <span property="itemListElement" typeof="ListItem">
                                     <a href="index.html">Home</a>
                                 </span>
                                 <span class="breadcrumb-separator">/</span>
                                 <span property="itemListElement" typeof="ListItem">Leadership</span>
-                            </nav>
+                            </nav> -->
                         </div>
                     </div>
                 </div>
@@ -359,7 +620,7 @@
         <!-- breadcrumb-area-end -->
 
 
-        <section class="section-py-120 cust_come_first">
+        <!-- <section class="section-py-120 cust_come_first">
           <div class="container">
             <div class="row">
               <div class="col-md-4 col-sm-5">
@@ -434,7 +695,7 @@
             </div>
 
           </div>
-        </section>
+        </section> -->
 
 
         <!-- community-area -->
@@ -529,7 +790,7 @@
         <!-- choose-area-end -->
 
         <!-- team-area -->
-        <section class="team__area-three team__bg">
+        <!-- <section class="team__area-three team__bg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
@@ -670,8 +931,164 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- team-area-end -->
+
+        <section class="">
+            <div class="interview-series">
+                <h2 class="heading__title">Meet The<span style="color: #0047ab;"> Leaders</span></h2>
+                <div class="interview-series__container">
+
+                    <div class="interview-banner">
+                        <div class="wrap-background">
+                            <div class="interview-banner__container">
+                                <div class="ant-space ant-space-horizontal ant-space-align-center author-wrapper">
+                                    <div class="ant-space-item"><span>Anil Jadhav</span></div>
+                                    <div class="ant-space-item"><p>-</p></div>
+                                    <div class="ant-space-item"><p>Specialist in Co-operative, IT Field </p></div>
+                                </div>
+                                <div class="author-says" >
+                                    <!-- <p>Different from a typical outsourcing company, Ekotek provides services for all stages of the software life cycle: from consulting, requirement definition, design to development, operation, and maintenance. In short, many customers come to us with just an idea and leave happily with a ready-to-market product.</p> -->
+
+                                    <ul class="describe">
+                                      <li><span class="abc">35+ years experience in co-operative sector.</span></li>
+                                      <li><span class="abc">25+ years experience in information technology field.</span></li>
+                                      <li><span class="abc">Pioneer to start software company for Co-Op. Credit Society Ltd.</span></li>
+                                      <li><span class="abc">Promotor - Mentor for major state &amp; multistate co-operative society.</span></li>
+                                      <li><span class="abc">Ex Chairman &amp; Director of The Sarvodaya Co-operative Bank Ltd.</span></li>
+                                    </ul>
+
+                                    <div class="social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="interview-banner__image">
+                                <img alt="Anil Jadhav sir" src="assets/img/Anil_Jadhav_sir.png"/>
+                            </div>
+                            <div class="tag-flag">
+                                <img alt="Flag tag icon" src="https://ekotek.vn/_next/image?url=%2Fimages%2Fabout-us%2Ftag_flag.webp&amp;w=64&amp;q=75"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="interview-banner">
+                        <div class="wrap-background">
+                            <div class="interview-banner__container">
+                                <div class="ant-space ant-space-horizontal ant-space-align-center author-wrapper">
+                                    <div class="ant-space-item" style=""><span>Satishkumar Rao</span></div>
+                                    <div class="ant-space-item" style=""><p>-</p></div>
+                                    <div class="ant-space-item"><p>Banking Specialist</p></div>
+                                </div>
+                                <div class="author-says">
+                                    <!-- <p>To improve productivity, I believe having a clear goal is the most important first step. And for people working in the tech industry, we need to stay informed of the latest advancement - and I mean daily. Developers around the world are building innovative tools and solutions that hold so much power, if companies know how to use it the right way.</p> -->
+
+                                    <ul class="describe">
+                                      <li><span class="abc">22+ Years of experience in banking sector.</span></li>
+                                      <li><span class="abc">Part of Core Start-up team of HDFC Bank and YES Bank.</span></li>
+                                      <li><span class="abc">Head of Technology &amp; Operations for United Overseas Bank, Singapore.</span></li>
+                                      <li><span class="abc">Masters in Financial Management and industry speaker at various banking and international forums.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="interview-banner__image">
+                                <img alt="Satishkumar Rao sir" src="assets/img/Satishkumar_Rao_sir.png">
+                            </div>
+                            <div class="tag-flag">
+                                <img alt="Flag tag icon" src="https://ekotek.vn/_next/image?url=%2Fimages%2Fabout-us%2Ftag_flag.webp&amp;w=64&amp;q=75"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="interview-banner">
+                        <div class="wrap-background">
+                            <div class="interview-banner__container">
+                                <div class="ant-space ant-space-horizontal ant-space-align-center author-wrapper">
+                                    <div class="ant-space-item" style=""><span>Ashutosh Samant</span></div>
+                                    <div class="ant-space-item" style=""><p>-</p></div>
+                                    <div class="ant-space-item"><p>IT Professional</p></div>
+                                </div>
+                                <div class="author-says" >
+                                    <!-- <p>Different from a typical outsourcing company, Ekotek provides services for all stages of the software life cycle: from consulting, requirement definition, design to development, operation, and maintenance. In short, many customers come to us with just an idea and leave happily with a ready-to-market product.</p> -->
+
+                                    <ul class="describe">
+                                      <li><span class="abc">Overall 22+ years of experience in information technology covering experience in Oracle, VC++, MySQL, Dot Net, J2ME,MS SQL.</span></li>
+                                      <li><span class="abc">Exp. in delivering I.T. solutions for Public, Banking, Telecom, CBFS, Gaming sector.</span></li>
+                                      <li><span class="abc">Credit to implement first cloud for CBFI (Community Based Financial Inclusion) sector.</span></li>
+                                      <li><span class="abc">Expertise in building Realtime Transaction Management System (RTLS) with mobility solution.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="interview-banner__image">
+                                <img alt="Ashutosh Samant sir" src="assets/img/Ashutosh_Samant_sir1.png"/>
+                            </div>
+                            <div class="tag-flag">
+                                <img alt="Flag tag icon" src="https://ekotek.vn/_next/image?url=%2Fimages%2Fabout-us%2Ftag_flag.webp&amp;w=64&amp;q=75"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="interview-banner">
+                        <div class="wrap-background">
+                            <div class="interview-banner__container">
+                                <div class="ant-space ant-space-horizontal ant-space-align-center author-wrapper">
+                                    <div class="ant-space-item" style=""><span>Saju Prabhakaran</span></div>
+                                    <div class="ant-space-item" style=""><p>-</p></div>
+                                    <div class="ant-space-item"><p>Technology Specialist</p></div>
+                                </div>
+                                <div class="author-says">
+                                    <!-- <p>To improve productivity, I believe having a clear goal is the most important first step. And for people working in the tech industry, we need to stay informed of the latest advancement - and I mean daily. Developers around the world are building innovative tools and solutions that hold so much power, if companies know how to use it the right way.</p> -->
+
+                                    <ul class="describe">
+                                      <li><span class="abc">25+ years of experience in Project Management, Architecture Design, Technology Integrations, Data Analytics - BI Tools and Business Process Implementations.</span></li>
+                                      <li><span class="abc">20+ years Overseas experience in Development and Implementation of ERP systems for East &amp; Central Africa.</span></li>
+                                      <li><span class="abc">Excellent people management, mentoring skills with the ability to train and motivate cross cultural teams in optimizing their abilities in product delivery.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="interview-banner__image">
+                                <img alt="Saju Prabhakaran sir" src="assets/img/Saju_Prabhakaran_sir1.png">
+                            </div>
+                            <div class="tag-flag">
+                                <img alt="Flag tag icon" src="https://ekotek.vn/_next/image?url=%2Fimages%2Fabout-us%2Ftag_flag.webp&amp;w=64&amp;q=75"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="interview-banner">
+                        <div class="wrap-background">
+                            <div class="interview-banner__container">
+                                <div class="ant-space ant-space-horizontal ant-space-align-center author-wrapper">
+                                    <div class="ant-space-item" style=""><span>Archana Jadhav</span></div>
+                                    <div class="ant-space-item" style=""><p>-</p></div>
+                                    <div class="ant-space-item"><p>Business Process Reengineering Expert</p></div>
+                                </div>
+                                <div class="author-says" >
+                                    <!-- <p>Different from a typical outsourcing company, Ekotek provides services for all stages of the software life cycle: from consulting, requirement definition, design to development, operation, and maintenance. In short, many customers come to us with just an idea and leave happily with a ready-to-market product.</p> -->
+
+                                    <ul class="describe">
+                                      <li><span class="abc">25+ Years experience in providing technology solutions for Co-Operative sector.</span></li>
+                                      <li><span class="abc">An expert in analysing, planning, designing and implementing business processes and banking solutions.</span></li>
+                                      <li><span class="abc">Instrumental in converting 300+ Co-Operative Credit Societies into digital cloud platform.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="interview-banner__image">
+                                <img alt="Archana Jadhav mam" src="assets/img/Archana_Jadhav_mam.png"/>
+                            </div>
+                            <div class="tag-flag">
+                                <img alt="Flag tag icon" src="https://ekotek.vn/_next/image?url=%2Fimages%2Fabout-us%2Ftag_flag.webp&amp;w=64&amp;q=75"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
 
         <!-- cta-area -->
         <!-- <section class="cta__area fix">
@@ -719,22 +1136,22 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                         <div class="footer__widget">
                             <div class="footer__logo">
-                                <a href="index.html"><img src="assets/img/Copass_logo.png" alt="logo"></a>
+                                <a href="index.html"><img src="assets/img/Copass_logo_white.png" alt="logo"></a>
                             </div>
                             <div class="footer__content">
                                 <p>CoPASS Technology & Services Private Limited is Information Technology company providing service since 25+ years & is incorporated under the Companies Act, 1956 as private limited.</p>
                             </div>
                             <div class="footer__social">
                                 <ul class="list-wrap">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=100063806154324" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <!-- <li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
+                                    <li><a href="https://www.linkedin.com/company/73217717/admin/inbox/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.instagram.com/copass_technologies/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-3 col-sm-4">
+                    <div class="col-xl-2 col-lg-4 col-md-3 col-sm-4 col-6">
                         <div class="footer__widget">
                             <h4 class="footer__widget-title">Useful Links</h4>
                             <div class="footer__widget-link">
@@ -745,9 +1162,9 @@
                                     <li>
                                         <a href="Leadership.html"><i class="renova-right-arrow"></i><span>Leadership</span></a>
                                     </li>
-                                    <li>
-                                        <a href="Goals.html"><i class="renova-right-arrow"></i><span>Our Goals</span></a>
-                                    </li>
+                                    <!-- <li> -->
+                                        <!-- <a href="Goals.html"><i class="renova-right-arrow"></i><span>Our Goals</span></a> -->
+                                    <!-- </li> -->
                                     <li>
                                         <a href="Partners.html"><i class="renova-right-arrow"></i><span>Our Partners</span></a>
                                     </li>
@@ -758,25 +1175,31 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-3 col-sm-6">
+                    <div class="col-xl-3 col-lg-4 col-md-3 col-sm-6 col-6">
                         <div class="footer__widget">
-                            <h4 class="footer__widget-title">Our Services</h4>
+                            <h4 class="footer__widget-title">Our Products</h4>
                             <div class="footer__widget-link">
                                 <ul class="list-wrap">
                                     <li>
-                                        <a href="CoreBankingSolutions.html"><i class="renova-right-arrow"></i><span>Core Banking Solutions</span></a>
+                                        <a href="Stream_LOS.html"><i class="renova-right-arrow"></i><span>LOS</span></a>
                                     </li>
                                     <li>
-                                        <a href="CreditBureauSolution.html"><i class="renova-right-arrow"></i><span>Credit Bureau Solution</span></a>
+                                        <a href="Cops.html"><i class="renova-right-arrow"></i><span>COPS</span></a>
                                     </li>
                                     <li>
-                                        <a href="RecoveryManagement.html"><i class="renova-right-arrow"></i><span>Recovery Management</span></a>
+                                        <a href="EzyB.html"><i class="renova-right-arrow"></i><span>EzyB</span></a>
                                     </li>
                                     <li>
-                                        <a href="WorkflowManagement.html"><i class="renova-right-arrow"></i><span>Workflow Management</span></a>
+                                        <a href="AppCo.html"><i class="renova-right-arrow"></i><span>AppCo</span></a>
                                     </li>
                                     <li>
-                                        <a href="MobileBanking.html"><i class="renova-right-arrow"></i><span>Mobile Banking</span></a>
+                                        <a href="BanqOn.html"><i class="renova-right-arrow"></i><span>BanqOn</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="ReCoup.html"><i class="renova-right-arrow"></i><span>ReCoup</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="CoBIS.html"><i class="renova-right-arrow"></i><span>CoBIS</span></a>
                                     </li>
                                 </ul>
                             </div>

@@ -147,10 +147,10 @@ var sliderSwiper = new Swiper('.slider-active', {
 var sliderSwiper = new Swiper('.slider-active-two', {
     spaceBetween: 0,
     effect: "fade",
-    // loop: true,
-    // autoplay: {
-    //     delay: 6000,
-    // },
+    loop: true,
+    autoplay: {
+        delay: 6000,
+    },
     // Navigation arrows
     navigation: {
         nextEl: ".slider-button-next",
